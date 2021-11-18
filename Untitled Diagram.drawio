@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T19:38:46.780Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="eNTfGJi_EqqfO_Yo-o8c" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T19:39:11.098Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="HdXlF-vFnrEY6OUHClpt" version="15.8.2" type="github">
   <diagram id="6ko1-yFrxwayHxXGvpoK" name="Page-1">
     <mxGraphModel dx="1859" dy="1424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -56,16 +56,16 @@
           <mxGeometry y="218" width="260" height="122" as="geometry" />
         </mxCell>
         <mxCell id="-5ycdc_25xC9KbkTk0qQ-36" value="Mothership Boss" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="-410" y="419" width="220" height="290" as="geometry" />
+          <mxGeometry x="-410" y="419" width="220" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="-5ycdc_25xC9KbkTk0qQ-37" value="+ maxCount: int&#xa;+ xpos: float&#xa;+ ypos: float&#xa;+ yspeed: float&#xa;+ HP: int&#xa;+ shieldHP: int&#xa;+ atkDMG: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="-5ycdc_25xC9KbkTk0qQ-36">
+        <mxCell id="-5ycdc_25xC9KbkTk0qQ-37" value="+ maxCount: int&#xa;+ xpos: float&#xa;+ ypos: float&#xa;+ yspeed: float&#xa;+ HP: int&#xa;+ shield: Boolean&#xa;+ atkDMG: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="-5ycdc_25xC9KbkTk0qQ-36">
           <mxGeometry y="26" width="220" height="164" as="geometry" />
         </mxCell>
         <mxCell id="-5ycdc_25xC9KbkTk0qQ-38" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="-5ycdc_25xC9KbkTk0qQ-36">
           <mxGeometry y="190" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="-5ycdc_25xC9KbkTk0qQ-39" value="+ mobSummon(): void&#xa;+ missileAtk(): void&#xa;+ pos(float xpos, ypos): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="-5ycdc_25xC9KbkTk0qQ-36">
-          <mxGeometry y="198" width="220" height="92" as="geometry" />
+        <mxCell id="-5ycdc_25xC9KbkTk0qQ-39" value="+ mobSummon(): void&#xa;+ missileAtk(): void&#xa;+ pos(float xpos, ypos): void&#xa;+ shieldUp(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="-5ycdc_25xC9KbkTk0qQ-36">
+          <mxGeometry y="198" width="220" height="102" as="geometry" />
         </mxCell>
         <mxCell id="-5ycdc_25xC9KbkTk0qQ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Lucida Console;fontSize=18;" edge="1" parent="1" source="-5ycdc_25xC9KbkTk0qQ-24" target="-5ycdc_25xC9KbkTk0qQ-30">
           <mxGeometry relative="1" as="geometry" />
