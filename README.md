@@ -8,7 +8,7 @@ Computer Programming 1 which focussed on Processing and C#.
 ### Space Game
 OOP solution for a collision based 2d space shooter.
 * Screen Capture of Running Application
-![Spacegame]()
+![Spacegame](https://github.com/ikenim/portfolio22/blob/main/images/stargame.png?raw=true)
 * Source Code for Application
 
 ### Screensaver
