@@ -4,6 +4,7 @@ Computer Programming 1 which focussed on Processing and C#.
 ## Processing Projects
 
 ### Calculator
+OOP solution for a graphics based calculator.
 * Screen Capture of Running Application
 ![Calculator](https://github.com/ikenim/portfolio22/blob/main/images/calculator.png?raw=true)
 * [Source Code for Application](https://github.com/ikenim/portfolio22/blob/main/src/Calculator_App.zip)
