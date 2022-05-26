@@ -26,3 +26,9 @@ OOP solution for a collision based 2d space shooter.
 * Screen Capture of Running Application
 ![ShapeTester](https://github.com/ikenim/portfolio22/blob/main/images/ShapeTester.png)
 * [Source Code for Application](https://github.com/ikenim/portfolio22/blob/main/src/ShapeTester1.zip)
+
+### Boom Snakeman
+OOP of a snake clone that has two different modes, one with bombs and the other without.
+* Screen Capture of Running Application
+![Placeholder] ()
+* [Source Code for Application] ()
